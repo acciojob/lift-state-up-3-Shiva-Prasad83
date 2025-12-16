@@ -1,0 +1,10 @@
+function Child2({setSelectedOption}){
+ return(
+   <div style={{backgroundColor:"#FED400",width:"250px",height:"120px"}}>
+   <h1>Child Component 2</h1>
+     <button onClick={()=>setSelectedOption("Option 2")}>Option 2</button>
+   </div>
+ )
+}
+
+export default Child2;
