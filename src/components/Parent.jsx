@@ -5,7 +5,7 @@ function Parent(){
 const [selectedOption,setSelectedOption]=useState("")
   return (
     <div style={{backgroundColor:"#73FF00",width:"350px",height:"350px"}}>
-      <h1>Parent Component<h1/>
+      <h1>Parent Component</h1>
      <Child1 setSelectedOption={setSelectedOption}/>
     <Child2 setSelectedOption={setSelectedOption}/>
 
