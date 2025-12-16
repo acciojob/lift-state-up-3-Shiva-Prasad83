@@ -13,3 +13,5 @@ const [selectedOption,setSelectedOption]=useState("")
     </div>
   )
 }
+
+export default Parent;      
