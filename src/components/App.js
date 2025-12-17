@@ -1,5 +1,4 @@
-
-import React from "react";
+import React from 'react';
 import './../styles/App.css';
 import Parent from './Parent.jsx';
 const App = () => {
@@ -10,4 +9,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
